@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>sabkidukan.in</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="Content/font-awesome.css" />
+    <script src="Scripts/jquery.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+    <script src="Scripts/main.js"></script>
+    <script src="https://kit.fontawesome.com/bd974ec74c.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen"
+    
+      href="Content/main.css" />
+  </head>
+  <body>
+    <header class="row" style="margin-top:6px;">
+      <h1 id="titleBar">SABKI DUKAAN Online (By Ahuja & Sons)
+      </h1>
+
+
+    </header>
+    <div id = "addcart">
+        <a href = "cart.php"><i class="fa fa-shopping-cart" aria-hidden="false" ></i></a>
+    </div>
+
+   
+    
+    <script>
+      $(document).ready(function () {
+	$('label.tree-toggler').click(function () {
+		$(this).parent().children('ul.tree').toggle(0);
+	});
+  $('label.tree-toggler').parent().children('ul.tree').toggle(1000);
+});
+    </script>
+
+    
+    
+    
+    
+    <br>
+
+
+      <nav class="navbar navbar-expand-lg navbar-light" style ="background-color: RGB(255,100,0);">
+        
+        
+        
+        <a class="navbar-brand" style="color:white;" href="#">Line of Products</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon "></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ITC</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                role="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                Products
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="http://www.parleproducts.com/">Parleproducts</a>
+                <a class="dropdown-item" href="http://www.haldirams.com/">Haldiram</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="Eggs">DailyNeeds</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Local Snacks & Namkeens</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search"
+              placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+      
+      <article>
+          <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css">
+          <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+          <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+          <!------ Include the above in your HEAD tag ---------->
+          
+          <div class="container" style="margin-left:0;">
+            <div class="row">
+                  <div class="well" style="width:auto; padding: 8px 0;">
+                      <div style="overflow-y: scroll; overflow-x: hidden; height: 500px; color:white;">
+                          <ul class="nav nav-list">
+                              <li><label class="tree-toggler nav-header"style="color:green">FMCG Products</label>
+                                  <ul class="nav nav-list tree" style="width:160px;">
+                                      <li>Brittania</li>
+                                      <li>Biscuits</li>
+                                      <li>Chips</li>
+                                      <li>Cold Drinks</li>
+                                      <li><label class="tree-toggler nav-header">Pepsi Products</label>
+                                          <ul class="nav nav-list tree" style="margin-left: 2px;">
+                                              <li><a href="#">Pepsi</a></li>
+                                              <li><a href="#">Dew</a></li>
+                                              <li><a href="#">Miranda</a></li>
+                                              <li><label class="tree-toggler nav-header">Size Option</label>
+                                                  <ul class="nav nav-list tree">
+                                                      <li><a href="#">500ml</a></li>
+                                                      <li><a href="#">200ml</a></li>
+                                                  </ul>
+                                              </li>
+                                          </ul>
+                                      </li>
+                                  </ul>
+                              </li>
+                              <li class="divider"></li>
+                              <li><label class="tree-toggler nav-header"style="color:green">DailyNeeds</label>
+                                  <ul class="nav nav-list tree">
+                                      <li><a href="#">Eggs</a></li>
+                                      <li><a href="#">Bread</a></li>
+                                      <li><label class="tree-toggler nav-header">Spices & Floor</label>
+                                          <ul class="nav nav-list tree">
+                                              <li><a href="#">MDH Spices</a></li>
+                                              <li><a href="#">BMC Spices</a></li>
+                                              <li><label class="tree-toggler nav-header">Header 2.1.1</label>
+                                                  <ul class="nav nav-list tree">
+                                                      <li><a href="#">Link</a></li>
+                                                      <li><a href="#">Link</a></li>
+                                                  </ul>
+                                              </li>
+                                          </ul>
+                                      </li>
+                                      <li><label class="tree-toggler nav-header">Header 2.2</label>
+                                          <ul class="nav nav-list tree">
+                                              <li><a href="#">Link</a></li>
+                                              <li><a href="#">Link</a></li>
+                                              <li><label class="tree-toggler nav-header">Header 2.2.1</label>
+                                                  <ul class="nav nav-list tree">
+                                                      <li><a href="#">Link</a></li>
+                                                      <li><a href="#">Link</a></li>
+                                                  </ul>
+                                              </li>
+                                          </ul>
+                                      </li>
+                                  </ul>
+                              </li>
+                              <li>
+                                  <li class="divider"></li>
+                                  <li><label class="tree-toggler nav-header"style="color:green">Cosmetics</label>
+                                      <ul class="nav nav-list tree">
+                                          <li><a href="#">Soaps</a></li>
+                                          <li><a href="#">Hair Products</a></li>
+                                          <li><label class="tree-toggler nav-header">Shaving Itmes</label>
+                                              <ul class="nav nav-list tree">
+                                                  <li><a href="#">Gillete</a></li>
+                                                  <li><a href="#">Shmick</a></li>
+                                                  <li><label class="tree-toggler nav-header">Header 2.1.1</label>
+                                                      <ul class="nav nav-list tree">
+                                                          <li><a href="#">Link</a></li>
+                                                          <li><a href="#">Link</a></li>
+                                                      </ul>
+                                                  </li>
+                                              </ul>
+                                          </li>
+                                          <li><label class="tree-toggler nav-header">Header 2.2</label>
+                                              <ul class="nav nav-list tree">
+                                                  <li><a href="#">Link</a></li>
+                                                  <li><a href="#">Link</a></li>
+                                                  <li><label class="tree-toggler nav-header">Header 2.2.1</label>
+                                                      <ul class="nav nav-list tree">
+                                                          <li><a href="#">Link</a></li>
+                                                          <li><a href="#">Link</a></li>
+                                                      </ul>
+                                                  </li>
+                                              </ul>
+                                          </li>
+                                      </ul>
+                                  </li>
+
+
+                              </li>
+                              <li>
+                                  <li class="divider"></li>
+                                  <li><label class="tree-toggler nav-header"style="color:green">Electronic Products</label>
+                                      <ul class="nav nav-list tree">
+                                          <li><a href="#">Geep</a></li>
+                                          <li><a href="#">Duracell</a></li>
+                                          <li><label class="tree-toggler nav-header">Flashlights</label>
+                                              <ul class="nav nav-list tree">
+                                                  <li><a href="#">Outdoor</a></li>
+                                                  <li><a href="#">Indoors</a></li>
+                                                  <li><label class="tree-toggler nav-header">Header 2.1.1</label>
+                                                      <ul class="nav nav-list tree">
+                                                          <li><a href="#">Link</a></li>
+                                                          <li><a href="#">Link</a></li>
+                                                      </ul>
+                                                  </li>
+                                              </ul>
+                                          </li>
+                                          <li><label class="tree-toggler nav-header">Header 2.2</label>
+                                              <ul class="nav nav-list tree">
+                                                  <li><a href="#">Link</a></li>
+                                                  <li><a href="#">Link</a></li>
+                                                  <li><label class="tree-toggler nav-header">Header 2.2.1</label>
+                                                      <ul class="nav nav-list tree">
+                                                          <li><a href="#">Link</a></li>
+                                                          <li><a href="#">Link</a></li>
+                                                      </ul>
+                                                  </li>
+                                              </ul>
+                                          </li>
+                                      </ul>
+                                  </li>
+
+
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+            </div>
+          </div>
+        
+          </article>
+          
+        
+        
+
+        
+                
+        <div class="topnav">
+          <a class="active" href="#home">Home</a>
+          <a
+            href="https://www.itcportal.com/businesses/fmcg/foods/sunfeast.aspx">ITC
+            Food </a>
+          <a href="#Parle">Parle Products</a>
+          <a href="#Haldiram">Haldiram</a>
+          <a href="#Lakme">Lakme products</a>
+          <a href="#Gilette">Gilette products</a>
+          <a href="Eggs">Eggs & Bread</a>
+          <a href="DailyNeeds">DailyNeed Items</a>
+
+          <p>
+            <input type="text" id="bar" placeholder="Search Items"
+              onchange="search()"></p>
+        </div>
+
+
+
+        <div>
+          SHOPPING LIST
+
+        
+      </div>
+      <div class="row">
+        <link
+          href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css"
+          rel="stylesheet" id="bootstrap-css">
+        <script
+          src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+        <!------ Include the above in your HEAD tag ---------->
+
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-10 col-md-offset-1">
+              <table class="table table-hover">
+                <thead>
+                  <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th class="text-center">Price</th>
+                    <th class="text-center">Total</th>
+                    <th> </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="col-sm-8 col-md-6">
+                      <div class="media">
+                        <a class="thumbnail pull-left" href="#"> <img
+                            class="media-object"
+                            src="https://www.itcportal.com/businesses/fmcg/foods/images/yumitos-masala-large.jpg"
+                            style="width: 72px; height: 72px;"> </a>
+                        <div class="media-body">
+                          <h4 class="media-heading"><a href="#">Product name</a></h4>
+                          <h5 class="media-heading"> by <a href="#">Brand name</a></h5>
+                          <span>Status: </span><span class="text-success"><strong>In
+                              Stock</strong></span>
+                        </div>
+                      </div></td>
+                    <td class="col-sm-1 col-md-1" style="text-align: center">
+                      <input type="email" class="form-control"
+                        id="exampleInputEmail1" value="3">
+                    </td>
+                    <td class="col-sm-1 col-md-1 text-center"><strong>$4.87</strong></td>
+                    <td class="col-sm-1 col-md-1 text-center"><strong>Rs.10.00</strong></td>
+                    <td class="col-sm-1 col-md-1">
+                      <button type="button" class="btn btn-danger">
+                        <span class="glyphicon glyphicon-remove"></span> Remove
+                      </button></td>
+                  </tr>
+                  <tr>
+                    <td class="col-md-8">
+                      <div class="media">
+                        <a class="thumbnail pull-left" href="#"> <img
+                            class="media-object"
+                            src="https://www.itcportal.com/businesses/fmcg/foods/images/Dark-Fantasy-Choco-Fills-big.jpg"
+                            style="width: 72px; height: 72px;"> </a>
+                        <div class="media-body">
+                          <h4 class="media-heading"><a href="#">Product name</a></h4>
+                          <h5 class="media-heading"> by <a href="#">Brand name</a></h5>
+                          <span>Status: </span><span class="text-warning"><strong>Leaves
+                              warehouse in 1 - 2 weeks</strong></span>
+                        </div>
+                      </div></td>
+                    <td class="col-md-1" style="text-align: center">
+                      <input type="email" class="form-control"
+                        id="exampleInputEmail1" value="2">
+                    </td>
+                    <td class="col-md-1 text-center"><strong>Rs4.99</strong></td>
+                    <td class="col-md-1 text-center"><strong>Rs.9.98</strong></td>
+                    <td class="col-md-1">
+                      <button type="button" class="btn btn-danger">
+                        <span class="glyphicon glyphicon-remove"></span> Remove
+                      </button></td>
+                  </tr>
+                  <tr>
+                      <td class="col-md-3">
+                          <div class="media">
+                            <a class="thumbnail pull-left" href="#"> <img
+                                class="media-object"
+                                src="https://www.itcportal.com/businesses/fmcg/foods/images/yumitos-tomato.jpg"
+                                style="width: 72px; height: 72px;"> </a>
+                            <div class="media-body">
+                              <h4 class="media-heading"><a href="#">Product name</a></h4>
+                              <h5 class="media-heading"> by <a href="#">Brand name</a></h5>
+                              <span>Status: </span><span class="text-warning"><strong>Leaves
+                                  warehouse in 1 - 2 weeks</strong></span>
+                            </div>
+                          </div></td>
+                        <td class="col-md-1" style="text-align: center">
+                          <input type="email" class="form-control"
+                            id="exampleInputEmail1" value="2">
+                        </td>
+                        <td class="col-md-1 text-center"><strong>Rs4.99</strong></td>
+                        <td class="col-md-1 text-center"><strong>Rs.9.98</strong></td>
+                        <td class="col-md-1">
+                          <button type="button" class="btn btn-danger">
+                            <span class="glyphicon glyphicon-remove"></span> Remove
+                          </button></td>
+                  </tr>
+                  <tr>
+                      <td class="col-md-4">
+                          <div class="media">
+                            <a class="thumbnail pull-left" href="#"> <img
+                                class="media-object"
+                                src="https://www.itcportal.com/businesses/fmcg/foods/images/as-you-like-it-large.jpg"
+                                style="width: 72px; height: 72px;"> </a>
+                            <div class="media-body">
+                              <h4 class="media-heading"><a href="#">Product name</a></h4>
+                              <h5 class="media-heading"> by <a href="#">Brand name</a></h5>
+                              <span>Status: </span><span class="text-warning"><strong>Leaves
+                                  warehouse in 1 - 2 weeks</strong></span>
+                            </div>
+                          </div></td>
+                        <td class="col-md-1" style="text-align: center">
+                          <input type="email" class="form-control"
+                            id="exampleInputEmail1" value="2">
+                        </td>
+                        <td class="col-md-1 text-center"><strong>Rs4.99</strong></td>
+                        <td class="col-md-1 text-center"><strong>Rs.9.98</strong></td>
+                        <td class="col-md-1">
+                          <button type="button" class="btn btn-danger">
+                            <span class="glyphicon glyphicon-remove"></span> Remove
+                          </button></td>
+
+                  </tr>
+                  <tr>
+                      <td class="col-md-7">
+                          <div class="media">
+                            <a class="thumbnail pull-left" href="#"> <img
+                                class="media-object"
+                                src="https://www.itcportal.com/businesses/fmcg/images/agarbatti4.jpg"
+                                style="width: 72px; height: 72px;"> </a>
+                            <div class="media-body">
+                              <h4 class="media-heading"><a href="#">Product name</a></h4>
+                              <h5 class="media-heading"> by <a href="#">Brand name</a></h5>
+                              <span>Status: </span><span class="text-warning"><strong>Leaves
+                                  warehouse in 1 - 2 weeks</strong></span>
+                            </div>
+                          </div></td>
+                        <td class="col-md-1" style="text-align: center">
+                          <input type="email" class="form-control"
+                            id="exampleInputEmail1" value="2">
+                        </td>
+                        <td class="col-md-1 text-center"><strong>Rs4.99</strong></td>
+                        <td class="col-md-1 text-center"><strong>Rs.9.98</strong></td>
+                        <td class="col-md-1">
+                          <button type="button" class="btn btn-danger">
+                            <span class="glyphicon glyphicon-remove"></span> Remove
+                          </button></td>
+
+
+                  </tr>
+                  <tr>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td><h5>Subtotal</h5></td>
+                    <td class="text-right"><h5><strong>Rs.24.59</strong></h5></td>
+                  </tr>
+                  <tr>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td><h5>Estimated shipping</h5></td>
+                    <td class="text-right"><h5><strong>RS.6.94</strong></h5></td>
+                  </tr>
+                  <tr>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td><h3>Total</h3></td>
+                    <td class="text-right"><h3><strong>RS31.53</strong></h3></td>
+                  </tr>
+                  <tr>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td>
+                      <button type="button" class="btn btn-default">
+                        <span class="glyphicon glyphicon-shopping-cart"></span>
+                        Continue Shopping
+                      </button></td>
+                    <td>
+                      <button type="button" class="btn btn-success">
+                        Checkout <span class="glyphicon glyphicon-play"></span>
+                      </button></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <p><label for="inp06"> Which Soda: </label>
+        <select name =  "soda" id = "inp06">
+        <option value = "0"> --- please Select---</option>
+        <option selected value = "1">Pepsi</option>
+        <option value = "2"> Mountain Dew </option>
+        <option value = "3"> Soda </option>
+      </select>
+      </p>
+      <p>Many Field Types...</p>
+      <form method ="POST" action = "more.php">
+        <p><label for = "inop01">Account:</label>
+          
+        <input type="text" name = "account" id = "inp01" size = "40"></p>
+        <p><label for = "inop02">Password:</label>
+        <input type = "password" name = "pw" id = "inop02" size = "40">
+        </p>
+      </form>
+
+     
+      
+      <footer>
+
+      </footer>
+
+
+    </body>
+
+  </html>
